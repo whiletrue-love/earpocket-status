@@ -7,13 +7,19 @@ sites:
     url: https://api.earpocket.com/health
     maxResponseTime: 5000
   - name: RSS Feeds
-    url: https://feeds.earpocket.com
+    url: https://feeds.earpocket.com/health
   - name: CDN
     url: https://cdn.earpocket.com
+    expectedStatusCodes:
+      - 200
+      - 404
   - name: Widget
     url: https://widget.earpocket.com
+    expectedStatusCodes:
+      - 200
+      - 404
   - name: Website
-    url: https://www.earpocket.com
+    url: https://earpocket.com
 
 status-website:
   cname: status.earpocket.com
@@ -26,7 +32,7 @@ status-website:
     - title: Status
       href: /
     - title: Earpocket
-      href: https://www.earpocket.com
+      href: https://earpocket.com
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
   customHeadHtml: '<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Instrument+Serif&display=swap" rel="stylesheet">'
