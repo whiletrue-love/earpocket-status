@@ -5,25 +5,31 @@ user-agent: whiletrue-love
 sites:
   - name: API
     url: https://api.earpocket.com/health
+    icon: https://earpocket.com/logo.svg
     maxResponseTime: 5000
   - name: RSS Feeds
     url: https://feeds.earpocket.com/health
+    icon: https://earpocket.com/logo.svg
   - name: CDN
     url: https://cdn.earpocket.com
+    icon: https://earpocket.com/logo.svg
     expectedStatusCodes:
       - 200
       - 404
   - name: Widget
     url: https://widget.earpocket.com
+    icon: https://earpocket.com/logo.svg
     expectedStatusCodes:
       - 200
       - 404
   - name: Website
     url: https://earpocket.com
+    icon: https://earpocket.com/logo.svg
 
 status-website:
   cname: status.earpocket.com
-  logoUrl: https://status.earpocket.com/logo.svg
+  logoUrl: https://earpocket.com/logo.svg
+  faviconSvg: https://earpocket.com/logo.svg
   name: Earpocket Status
   theme: dark
   introTitle: "**Earpocket** service status"
