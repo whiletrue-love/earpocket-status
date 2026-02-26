@@ -17,7 +17,7 @@ sites:
 
 status-website:
   cname: status.earpocket.com
-  logoUrl: https://www.earpocket.com/favicon.ico
+  logoUrl: https://status.earpocket.com/logo.svg
   name: Earpocket Status
   theme: dark
   introTitle: "**Earpocket** service status"
