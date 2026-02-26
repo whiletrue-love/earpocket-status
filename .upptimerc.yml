@@ -29,6 +29,7 @@ status-website:
       href: https://www.earpocket.com
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
+  customHeadHtml: '<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Instrument+Serif&display=swap" rel="stylesheet">'
   css: |
     :root {
       --body-background-color: #1a1a1a;
@@ -36,6 +37,12 @@ status-website:
       --card-background-color: #262626;
       --nav-background-color: #262626;
       --nav-border-bottom-color: #404040;
+    }
+    body, button, input, select, textarea {
+      font-family: 'DM Sans', system-ui, sans-serif;
+    }
+    h1, h2, h3 {
+      font-family: 'Instrument Serif', Georgia, serif;
     }
     a { color: #0ea5e9; }
     a:hover { color: #38bdf8; }
