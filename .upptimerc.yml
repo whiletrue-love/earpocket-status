@@ -1,0 +1,29 @@
+owner: whiletrue-love
+repo: earpocket-status
+user-agent: whiletrue-love
+
+sites:
+  - name: API
+    url: https://api.earpocket.com/health
+    maxResponseTime: 5000
+  - name: RSS Feeds
+    url: https://feeds.earpocket.com
+  - name: CDN
+    url: https://cdn.earpocket.com
+  - name: Widget
+    url: https://widget.earpocket.com
+  - name: Website
+    url: https://www.earpocket.com
+
+status-website:
+  baseUrl: /earpocket-status
+  logoUrl: https://www.earpocket.com/favicon.ico
+  name: Earpocket Status
+  theme: dark
+  introTitle: "**Earpocket** service status"
+  introMessage: Real-time status for all Earpocket services. Powered by [Upptime](https://github.com/upptime/upptime).
+  navbar:
+    - title: Status
+      href: /
+    - title: GitHub
+      href: https://github.com/$OWNER/$REPO
