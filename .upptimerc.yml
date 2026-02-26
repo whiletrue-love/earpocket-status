@@ -33,7 +33,7 @@ status-website:
   name: Earpocket Status
   theme: dark
   introTitle: "**Earpocket** service status"
-  introMessage: Real-time availability and incident history for all Earpocket services.
+  introMessage: Keeping tabs on everything, so you don't have to.
   navbar:
     - title: Status
       href: /
@@ -41,7 +41,7 @@ status-website:
       href: https://earpocket.com
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
-  customHeadHtml: '<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Instrument+Serif&display=swap" rel="stylesheet">'
+  customHeadHtml: '<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Instrument+Serif&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">'
   css: |
     :root {
       --body-background-color: #1a1a1a;
@@ -49,6 +49,23 @@ status-website:
       --card-background-color: #262626;
       --nav-background-color: #262626;
       --nav-border-bottom-color: #404040;
+      --nav-current-border-bottom-color: #0ea5e9;
+      --card-border-color: #404040;
+      --up-border-left-color: #22c55e;
+      --down-border-left-color: #ef4444;
+      --down-background-color: rgba(239, 68, 68, 0.15);
+      --degraded-border-left-color: #f59e0b;
+      --tag-color: #262626;
+      --tag-up-background-color: #22c55e;
+      --tag-down-background-color: #ef4444;
+      --tag-degraded-background-color: #f59e0b;
+      --change-background-color: #f59e0b;
+      --error-button-background-color: #0ea5e9;
+      --error-button-border-color: #0284c7;
+      --error-button-color: #ffffff;
+      --submit-button-background-color: #0ea5e9;
+      --submit-button-border-color: #0284c7;
+      --submit-button-color: #ffffff;
     }
     body, button, input, select, textarea {
       font-family: 'DM Sans', system-ui, sans-serif;
@@ -56,5 +73,27 @@ status-website:
     h1, h2, h3 {
       font-family: 'Instrument Serif', Georgia, serif;
     }
-    a { color: #0ea5e9; }
+    code, pre, .monospace {
+      font-family: 'JetBrains Mono', 'Fira Code', monospace;
+    }
+    a {
+      color: #0ea5e9;
+      transition: color 150ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
     a:hover { color: #38bdf8; }
+    a:focus-visible {
+      outline: 2px solid #0ea5e9;
+      outline-offset: 2px;
+    }
+    button {
+      border-radius: 8px;
+      transition: all 200ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    button:hover {
+      opacity: 0.9;
+      transform: translateY(-1px);
+    }
+    ::selection {
+      background: #0ea5e9;
+      color: #ffffff;
+    }
