@@ -21,9 +21,21 @@ status-website:
   name: Earpocket Status
   theme: dark
   introTitle: "**Earpocket** service status"
-  introMessage: Real-time status for all Earpocket services. Powered by [Upptime](https://github.com/upptime/upptime).
+  introMessage: Real-time availability and incident history for all Earpocket services.
   navbar:
     - title: Status
       href: /
+    - title: Earpocket
+      href: https://www.earpocket.com
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
+  css: |
+    :root {
+      --body-background-color: #1a1a1a;
+      --body-text-color: #f0f0f0;
+      --card-background-color: #262626;
+      --nav-background-color: #262626;
+      --nav-border-bottom-color: #404040;
+    }
+    a { color: #0ea5e9; }
+    a:hover { color: #38bdf8; }
