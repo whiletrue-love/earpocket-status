@@ -22,10 +22,10 @@
     "url": "https://feeds.earpocket.com/health",
     "icon": "https://earpocket.com/logo.svg",
     "slug": "rss-feeds",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.89%",
+    "uptimeWeek": "99.98%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 798,
@@ -33,7 +33,9 @@
     "timeWeek": 660,
     "timeMonth": 726,
     "timeYear": 798,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-04-30": 2
+    }
   },
   {
     "name": "CDN",
@@ -58,9 +60,9 @@
     "url": "https://widget.earpocket.com",
     "icon": "https://earpocket.com/logo.svg",
     "slug": "widget",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -69,7 +71,9 @@
     "timeWeek": 166,
     "timeMonth": 330,
     "timeYear": 248,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-04-30": 0
+    }
   },
   {
     "name": "Website",
