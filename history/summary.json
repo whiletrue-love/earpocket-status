@@ -10,11 +10,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 815,
-    "timeDay": 957,
-    "timeWeek": 867,
-    "timeMonth": 831,
-    "timeYear": 815,
+    "time": 819,
+    "timeDay": 1188,
+    "timeWeek": 920,
+    "timeMonth": 847,
+    "timeYear": 819,
     "dailyMinutesDown": {}
   },
   {
@@ -29,9 +29,9 @@
     "uptimeMonth": "99.78%",
     "uptimeYear": "99.92%",
     "time": 775,
-    "timeDay": 839,
-    "timeWeek": 792,
-    "timeMonth": 706,
+    "timeDay": 831,
+    "timeWeek": 781,
+    "timeMonth": 703,
     "timeYear": 775,
     "dailyMinutesDown": {
       "2026-04-30": 96
@@ -48,11 +48,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 344,
-    "timeDay": 428,
-    "timeWeek": 404,
-    "timeMonth": 370,
-    "timeYear": 344,
+    "time": 345,
+    "timeDay": 494,
+    "timeWeek": 407,
+    "timeMonth": 375,
+    "timeYear": 345,
     "dailyMinutesDown": {}
   },
   {
@@ -61,16 +61,16 @@
     "icon": "https://earpocket.com/logo.svg",
     "slug": "widget",
     "status": "up",
-    "uptime": "99.92%",
+    "uptime": "99.93%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "99.78%",
-    "uptimeYear": "99.92%",
-    "time": 227,
-    "timeDay": 245,
-    "timeWeek": 180,
-    "timeMonth": 172,
-    "timeYear": 227,
+    "uptimeYear": "99.93%",
+    "time": 225,
+    "timeDay": 133,
+    "timeWeek": 186,
+    "timeMonth": 170,
+    "timeYear": 225,
     "dailyMinutesDown": {
       "2026-04-30": 94
     }
@@ -87,9 +87,9 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 193,
-    "timeDay": 188,
-    "timeWeek": 178,
-    "timeMonth": 177,
+    "timeDay": 221,
+    "timeWeek": 187,
+    "timeMonth": 178,
     "timeYear": 193,
     "dailyMinutesDown": {}
   }
