@@ -13,7 +13,7 @@
     "time": 932,
     "timeDay": 0,
     "timeWeek": 1224,
-    "timeMonth": 1128,
+    "timeMonth": 1137,
     "timeYear": 932,
     "dailyMinutesDown": {}
   },
@@ -31,7 +31,7 @@
     "time": 823,
     "timeDay": 0,
     "timeWeek": 978,
-    "timeMonth": 976,
+    "timeMonth": 979,
     "timeYear": 823,
     "dailyMinutesDown": {
       "2026-04-30": 96
@@ -51,7 +51,7 @@
     "time": 325,
     "timeDay": 0,
     "timeWeek": 282,
-    "timeMonth": 288,
+    "timeMonth": 285,
     "timeYear": 325,
     "dailyMinutesDown": {}
   },
@@ -61,15 +61,15 @@
     "icon": "https://earpocket.com/logo.svg",
     "slug": "widget",
     "status": "up",
-    "uptime": "99.96%",
+    "uptime": "99.97%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
-    "uptimeYear": "99.96%",
+    "uptimeYear": "99.97%",
     "time": 202,
     "timeDay": 0,
     "timeWeek": 142,
-    "timeMonth": 150,
+    "timeMonth": 147,
     "timeYear": 202,
     "dailyMinutesDown": {
       "2026-04-30": 94
@@ -89,7 +89,7 @@
     "time": 187,
     "timeDay": 0,
     "timeWeek": 198,
-    "timeMonth": 168,
+    "timeMonth": 164,
     "timeYear": 187,
     "dailyMinutesDown": {}
   }
